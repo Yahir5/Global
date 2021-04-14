@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+  }
+  body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .section__titulo {
+    text-align: center;
+    font-size: 40px;
+    color: #19fbcac9;
+  }
+  .contenedor {
+    margin: auto;
+    width: 99%;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 1.5px;
+  }
+  
+  .header {
+    height: 60px;
+  }
+  .header .contenedor {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav {
+    position: absolute;
+    top: 60px;
+    left: -100%;
+    width: 100%;
+    transition: all 0.4s;
+  }
+  .icon-menu {
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    background: #19fbc2af;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 5px;
+    margin-left: auto;
+    cursor: pointer;
+  }
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .menu__link {
+    display: block;
+    padding: 15px;
+    background: #33fb19af;
+    text-decoration: none;
+    color: #fff;
+  }
+  .menu__link:hover, .select {
+    background: white;
+    color: #16bd31c2;
+  }
+  .section__titulo {
+    font-size: 50px;
+    margin: 30px 0;
+  }
+  .nav {
+    position: static;
+    width: auto;
+  }
+  .menu {
+    display: flex;
+  }
+  .icon-menu {
+    display: none;
+  }
+  .menu__link {
+    background: none;
+    font-size: 20px;
+  }
+  .select {
+    color: #fff;
+    background: #1527c9;
+  }
+  .banner__titulo {
+    font-size: 60px;
+  }
+  .banner__txt {
+    font-size: 25px;
+  }
+  .info {
+    margin-top: -120px;
+  }
+  .info__columna {
+    padding: 30px;
+  }
+  .info__titulo {
+    font-size: 40px;
+    text-align: center;
+  }
+  .cursos__descripcion {
+    padding: 20px;
+  }
+  .cursos__titulo {
+    font-size: 50px;
+  }
+  .cursos__txt {
+    font-size: 20px;
+  }
